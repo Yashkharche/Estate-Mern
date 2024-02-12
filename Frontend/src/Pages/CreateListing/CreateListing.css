@@ -1,0 +1,152 @@
+.create-listing-main{
+    width: 100%;
+    
+     
+}
+.create-listing-main>p{
+    text-align: center;
+    font-size: 2.5vw;
+    padding: 1vw;
+}
+
+.create-list-form{
+    display: flex;
+    justify-content: center;
+}
+
+
+.form-first{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+   
+    padding: 1vw 2vw;
+    width: 40vw;
+
+    
+}
+.form-first>input,textarea{
+    width:30vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    font-size: 1.1vw;
+
+}
+
+.form-checkbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    width: 30vw;
+}
+.form-checkbox-inside{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 1.1vw;
+
+}
+.form-bath-input{
+    display: flex;
+    
+    flex-wrap: wrap;
+    width: 30vw;
+    font-size: 1.1vw;
+    gap: 2vw;
+}
+
+.form-input{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+
+}
+.form-input input{
+    width: 30px;
+    font-size: 1.1vw;
+}
+.form-price-input{
+    display: flex;
+    gap: 2vw;
+    flex-wrap: wrap;
+    width: 30vw;
+    font-size: 1.1vw;
+}
+
+.form-price-inside{
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+}
+.form-price-input input{
+    border-radius: 1vw;
+}
+.form-second{
+   width: 40vw;
+    padding: 1vw 2vw;
+   
+}
+
+.form-second>p{
+text-align: center;
+font-size: 1.5vw;
+}
+
+.form-image{
+    display: flex;
+    margin-top: 1vw;
+    align-items: center;
+    gap: 1vw;
+    justify-content: space-between;
+}
+.form-image input{
+ padding: 1vw 1vw;
+ border: 1px solid grey;
+ text-align: center;
+ font-size: 1.1vw;
+}
+
+.form-image button{
+    color: green;
+    padding: 1vw 2vw;
+    border-color: green;
+    background-color: white;
+    font-size: 1.1vw;
+}
+.form-price{
+    font-size: 1.1vw;
+}
+
+.form-image button:not([disabled]):hover{
+background-color: aliceblue;
+cursor: pointer;
+}
+
+.createlisting-submit:not([disable]){
+    width: 100%;
+    margin-top:1vw;
+    padding: 1vw;
+    background-color: green;
+}
+
+.createlisting-submit:hover{
+    
+    cursor: pointer;
+}
+
+.photo-list{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: 1.2vw;
+    border: 1px solid grey;
+    padding: 1vw;
+}
+
+.photo-list img{
+    width: 12vw;
+}
+.photo-list p{
+    color: red;
+    cursor: pointer;
+}

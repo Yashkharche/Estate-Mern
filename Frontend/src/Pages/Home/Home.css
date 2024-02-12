@@ -1,0 +1,103 @@
+.home-first{
+    padding: 2vw 4vw;
+    height: 55vh;
+}
+
+.home-first>h1{
+    font-size: 5vw;
+    letter-spacing: 1px;
+    font-family: montserrat;
+    font-weight: 700;
+    line-height: 5vw;
+}
+
+.home-first>:nth-child(1) span{
+    color: rgb(118, 132, 146);
+}
+
+.home-first>p{
+    margin-top:1.3vw;
+    font-size: 1.2vw;
+    color: rgb(118, 132, 146);
+    font-family: montserrat;
+    font-weight: 600;
+}
+
+
+.started-link{
+    color: rgb(47, 47, 231);
+    font-family:montserrat;
+    margin-top: .7vw;
+    font-size: 1.2vw;   
+}
+
+.home-second-div{
+    height:60vh;
+    width:100%;
+    padding-bottom:20vw;
+}
+
+
+.home-second-div img{
+        width:100%;
+        height:60vh;
+        margin-top:-10%;
+        object-position:cover
+}
+.home-third{
+ padding: 1vw 4vw; 
+}
+
+.home-third>:nth-child(1){
+    font-size: 1.8vw;
+    font-family: montserrat;
+    font-weight: 800;
+    padding-bottom: .7vw;
+}
+
+
+.home-third>:nth-child(2){
+    color: blue;
+    font-size: 1vw;
+    font-weight: 800;
+    font-family: montserrat;
+}
+
+.home-third-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1vw;
+}
+
+
+@media (max-width:650px) {
+    .home-first{
+        height: 20vh;
+    }
+    .home-first>h1{
+        margin-top: 1vw;
+        
+    }
+    .home-first>p{
+        padding: 2vw 0vw;
+        font-size: 2.2vw;
+    }
+    .home-second-div{
+      height: 45vh;
+    }
+    .home-second-div img{
+        width: 100%;
+        height: 45vh;
+    }
+    .home-third p{
+        text-align: center;
+        font-size: 1.6vw;
+    }
+    .home-third-list{
+    
+    justify-content: center;
+    margin: 1vw 2vw;
+    }
+    
+}

@@ -1,0 +1,73 @@
+.profile-parent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-main{
+    padding: 2vw 4vw;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.profile-input img{
+   
+ width: 120px;
+ height: 120px;   
+ border-radius: 50%;
+ cursor: pointer;
+ 
+}
+.profile-input form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5vw;
+}
+
+.profile-input form input{
+    font-size: 1vw;
+    width: 25vw;
+    padding: .5vw;
+    border-radius: 1vw;
+    line-height: 1.8vw;
+
+}
+
+.profile-input form button{
+    margin-top: .5vw;
+    width: 25vw;
+    padding: 1vw;
+    background-color: rgb(194, 197, 200);
+    border-radius: 1vw;
+    cursor: pointer;
+
+}
+.profile-input form button:disabled{
+    background-color: rgb(228, 231, 234);
+    
+}
+
+.profile-input form button:not([disabled]):hover{
+    background-color: slategrey;
+    transition: all ease .5s;
+}
+.profile-heading>p{
+font-size: 3vw;
+}
+.profile-last{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1vw;
+
+}
+.profile-last p{
+    color: red;
+    cursor: pointer;
+}

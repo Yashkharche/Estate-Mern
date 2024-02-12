@@ -1,0 +1,16 @@
+.about-main{
+    padding: 1vw 4vw;
+    font-family: montserrat;
+
+}
+.about-main>h1{
+    font: bold;
+    text-decoration: underline;
+
+}
+
+.about-main>p{
+    margin-top: 1.2vw;
+    font-size: 1.3vw;
+    font-weight: 700;
+}

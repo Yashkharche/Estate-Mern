@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Montserrat:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,800;0,900;1,100;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap');
+
+.signup-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw 4vw;
+}
+.signup-heading>p{
+font-size: 3vw;
+}
+
+.signup-second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 2vw;
+    
+}
+.signup-second>p{
+    font-size: 1vw;
+}
+.signup-second>p span{
+text-decoration: underline;
+}
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.signup-form input{
+    font-size: 1vw;
+    border-radius:1vw;
+    padding: 1vw;
+    border-color: aliceblue; 
+    width: 25vw;  
+
+}
+
+.signup-form button{
+    padding: 1vw;
+    font-size: 1.2vw;
+    background-color: rgb(194, 197, 200);
+    border-radius: 1vw;
+    margin-bottom: 1vw;
+    width: 25vw;
+}
+.signup-form button:disabled{
+    background-color: rgb(228, 231, 234);
+    
+}
+
+.signup-form button:not([disabled]):hover{
+    background-color: slategrey;
+}
+
+.signup-error{
+    color: red;
+    font-size: 1.2vw;
+    margin-top: 1vw;
+}
+
+
+@media(max-width:650px) {
+    .signup-main{
+        height: 50vh;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+    
+}

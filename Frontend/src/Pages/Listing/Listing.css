@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Montserrat:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,800;0,900;1,100;1,600;1,700;1,800;1,900&family=Roboto:wght@300&display=swap');
+
+
+.share-listing{
+    position: fixed;
+    z-index: 99;
+    top: 15vw;
+    right: 5%;
+    color:black;
+    background-color: white;
+    border: 1px solid black;
+    padding: .5vw;
+    border-radius: 50%;
+    opacity: 40%;   
+    cursor: pointer;
+}
+
+.listing-copied{
+    position: fixed;
+    top: 17.7vw;
+    z-index: 99;
+    color: black;
+    font-size: 1.4vw;
+    right: 5%;
+    border: 1px solid black;
+    background-color: white;
+    opacity: 50%;
+    padding: .3vw 2vw;
+    border-radius: 10px;
+}
+
+.listing-description{
+  
+    padding-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listing-description-name{
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    font-family: montserrat;
+    font-weight: 700;
+}
+.swipe-image{
+    height:70vh;
+    width:100%
+}
+
+.swipe-image img{
+    height:80vh;
+    width:100%;
+    object-position:cover; 
+    margin-top:-10%;
+}
+.listing-description-address{
+    margin-top: 1vw;
+    font-size: 1.2vw;
+    display: flex;
+    gap: 1.3vw;
+    align-items: center;
+    font-family: montserrat;
+    font-weight: 700;
+}
+
+.listing-description-2btn{
+    margin-top: 1.2vw;
+    display: flex;
+    align-items: center;
+    gap: 1.2vw;
+    font-size: 1.2vw;
+    font-family: montserrat;
+    font-weight: 700;
+}
+
+.listing-description-2btn>:nth-child(1){
+    border: 1px solid black;
+    padding: 10px 25px;
+    background-color: rgb(211, 45, 45);
+}
+
+.listing-description-2btn>:nth-child(2){
+    border: 1px solid black;
+    padding: 10px 25px;
+    background-color: green;
+}
+
+.listing-description-desc{
+    padding: 2.2vw 4vw 0vw 4vw; 
+}
+
+.listing-description-desc>p{
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 1.3vw;
+    text-align: justify;
+}
+
+.listing-description-facility{
+    margin-top:1vw;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    flex-wrap: wrap;
+}
+
+.facilities{
+    display: flex;
+    font-family: montserrat;
+    font-weight: 700;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.2vw;
+    color:green;
+    padding-bottom: 2vw;
+    
+}
+
+.contact-owner{
+    padding: 1vw 0vw;
+}
+
+.contact-owner button{
+    padding: 1vw 2vw;
+    background-color: rgb(85, 85, 85);
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+}
+
+.contact-owner button:hover{
+   
+    background-color: grey;
+}
+
+
+
+@media (max-width:650px) {
+    .swipe-image{
+        height: 50vh;
+    }
+    .swipe-image img{
+        height: 50vh;
+    }
+
+ .listing-description{
+    font-size: 5vw;
+    margin-top: -3vw;
+    padding: 0vw 3vw;
+   align-items: start;
+    justify-content: start;
+    gap: 2vw;
+    height: 100%;
+ }
+ .listing-description-name{
+    font-size: 3vw;
+ }
+ .listing-description-address{
+    font-size: 2.5vw;
+ }
+ .listing-description-2btn{
+    font-size: 2.3vw;
+    margin-top: 2vw;
+ }
+ .listing-description-desc p{
+    text-align: baseline;
+    padding: 0vw;
+    font-size: 3vw;
+ }
+    .facilities{
+        font-size: 3.4vw;
+        text-align: center;
+        
+    }
+   
+}
